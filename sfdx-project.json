@@ -1,0 +1,16 @@
+{
+  "packageDirectories" : [ {
+    "path" : "UserEXperience",
+    "default" : true,
+    "package" : "UserEXperience",
+    "versionName" : "UserEXperience",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "48.0",
+  "packageAliases" : {
+    "UserEXperience" : "0Ho1U00000000IeSAI",
+    "UserEXperience@1.0.0.0" : "04t1U000007cJzeQAE"
+  }
+}
