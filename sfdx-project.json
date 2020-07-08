@@ -1,0 +1,16 @@
+{
+  "packageDirectories" : [ {
+    "path" : "SalesCloudApp",
+    "default" : true,
+    "package" : "SalesCloudApp",
+    "versionName" : "SalesCloudApp",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "48.0",
+  "packageAliases" : {
+    "SalesCloudApp" : "0Ho1U00000000JcSAI",
+    "SalesCloudApp@1.0.0.0" : "04t1U000007cKguQAE"
+  }
+}
