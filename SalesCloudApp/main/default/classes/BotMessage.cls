@@ -1,5 +1,4 @@
 public virtual class BotMessage {
-
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
     @AuraEnabled public List<BotRecord> records { get;set; }
@@ -21,6 +20,7 @@ public virtual class BotMessage {
         this.records = records;
     }
 
+//CC
     public BotMessage(String author, String messageText, List<BotItem> items) {
         this.author = author;
         this.messageText = messageText;
@@ -32,7 +32,8 @@ public virtual class BotMessage {
         this.messageText = messageText;
         this.buttons = buttons;
     }
-
+    
+    //New addition
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;
